@@ -11,4 +11,4 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules[f"Anime_Downloader_Probot.plugins.{plugin_name}"] = load
-    print(f"Anime_Downloader_Probot Import{plugin_name}")
+    print(f"xAnimeDLBot Import{plugin_name}")
